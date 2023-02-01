@@ -27,13 +27,23 @@
 # print(prova)
 
 ###### QUESTO FA COSE
+import os
 from spellchecker import SpellChecker
 
+# get the current path
+current_dir = os.getcwd()
+# get the path of the father folder
+parent_dir = os.path.dirname(current_dir)
+# set the wd to the father's folder
+os.chdir(parent_dir)
+
+path = f'{os.getcwd()}/Files/final_data.json'
 spell = SpellChecker(language=None)
+spell.word_frequency.load_dictionary(path)
+new_path = f'{os.getcwd()}/Files/italian.gz'
+# spell.export(new_path, gzipped=True)
 
-spell.word_frequency.load_dictionary('final_data.json')
-
-word = "attacmens"
+word = "ciae"
 
 if spell.correction(word) != word:
     print(f'{word} è scritto in modo sbagliato, il corretto è {spell.correction(word)}')
