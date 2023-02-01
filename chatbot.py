@@ -2,8 +2,8 @@ import random
 import json
 import time
 import torch
-from model import NeuralNet
-from nltk_utils import bag_of_words, tokenize
+from ChatBotModel.model import NeuralNet
+from ChatBotModel.nltk_utils import bag_of_words, tokenize
 
 
 # se possibile utilizza la gpu
@@ -62,8 +62,8 @@ while True:
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.5:
-        for intent in intents['data']:
+    if prob.item() > 0.65:
+        for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: ", end="")
                 simulate_typing(random.choice(intent['responses']))

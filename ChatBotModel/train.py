@@ -16,7 +16,8 @@ parent_dir = os.path.dirname(current_dir)
 os.chdir(parent_dir)
 
 
-with open(f'{current_dir}/Files/intents.json', 'r') as f:
+path = f'{os.getcwd()}/Files/intents.json'
+with open(path, 'r') as f:
     intents = json.load(f)
 
 
@@ -142,7 +143,7 @@ model_data = {
 }
 
 
-FILE = f"{current_dir}/Files/model_data.pth"
+FILE = f"{os.getcwd()}/Files/model_data.pth"
 torch.save(model_data, FILE)
 
 
