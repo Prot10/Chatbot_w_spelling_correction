@@ -1,0 +1,180 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Buongiorno",
+        "Buonasera",
+        "Ciao",
+        "Salve",
+        "Buon pomeriggio",
+        "Buon giorno",
+        "Buona sera",
+        "Buon weekend",
+        "Buona giornata",
+        "Ehilà",
+        "Hey",
+        "Ei",
+        "We",
+        "Bella",
+        "Weila"
+      ],
+      "responses": [
+        "Ciao :-)",
+        "Ciao, grazie per averci visitato.",
+        "Salve, posso aiutarti in qualcosa?",
+        "Salve, come posso aiutarti?",
+        "Ciao, come posso aiutarti oggi?",
+        "Salve, cosa posso fare per te?",
+        "Ciao, in cosa posso esserti utile?",
+        "Salve, di cosa hai bisogno?",
+        "Ciao, in cosa posso esserti d'aiuto?",
+        "Buona giornata, come posso assistere?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Arrivederci",
+        "A presto",
+        "A dopo",
+        "Ci vediamo più tardi",
+        "Ci vediamo prossimamente",
+        "Ci sentiamo presto",
+        "Ci risentiamo"
+      ],
+      "responses": [
+        "A presto, grazie per averci visitato.",
+        "Buona giornata!",
+        "Arrivederci! Torna presto.",
+        "Ci risentiamo, grazie per la visita.",
+        "Buona continuazione!",
+        "A presto, torna a trovarci!",
+        "Buon proseguimento, torna presto."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Grazie",
+        "Ti ringrazio",
+        "E' stato utile",
+        "Molte grazie",
+        "Grazie mille",
+        "Grazie infinite",
+        "Grazie per il tuo aiuto",
+        "Grazie per avermelo fatto sapere",
+        "Apprezzo molto il tuo aiuto",
+        "Sono grato per il tuo aiuto",
+        "Gracias",
+        "Thanks",
+        "Thank you",
+        "Danke"
+      ],
+      "responses": [
+        "Felice di aiutare!",
+        "È un piacere",
+        "Nessun problema",
+        "E' stato un piacere",
+        "Sono sempre a disposizione",
+        "E' stato un piacere poterti essere utile",
+        "Sono grato di esserti stato d'aiuto"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Quali articoli avete?",
+        "Quali tipi di articoli ci sono?",
+        "Cosa vendete?",
+        "Avete una lista dei prodotti?",
+        "Avete un catalogo?",
+        "Avete una gamma di prodotti?",
+        "Avete qualcosa di specifico?",
+        "Avete una selezione di prodotti?"
+      ],
+      "responses": [
+        "Il nostro core business è la vendita di allineatori dentali invisibili di ultima generazione, pensati per rispondere alle esigenze dei nostri clienti.",
+        "Siamo un'azienda leader nel settore degli allineatori dentali invisibili, offriamo una vasta scelta di prodotti innovativi per soddisfare le esigenze dei nostri clienti.",
+        "Il nostro impegno è offrire allineatori dentali invisibili di alta qualità.",
+        "Siamo orgogliosi di essere un'azienda specializzata nella vendita di allineatori dentali invisibili innovativi.",
+        "Il nostro obiettivo è fornire ai nostri clienti allineatori dentali invisibili all'avanguardia."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Accettate carte di credito?",
+        "Accettate Mastercard?",
+        "Posso pagare con Paypal?",
+        "Accettate solo contanti?",
+        "Accettate carte di debito?",
+        "Accettate altre forme di pagamento?",
+        "Quali metodi di pagamento accettate?",
+        "Come posso pagare?"
+      ],
+      "responses": [
+        "Accettiamo VISA, Mastercard e Paypal",
+        "Accettiamo la maggior parte delle carte di credito e Paypal",
+        "Accettiamo tutte le principali carte di credito e Paypal",
+        "Accettiamo pagamenti con carte di credito e Paypal",
+        "Accettiamo tutte le principali carte di credito e Paypal come metodo di pagamento"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quanto tempo impiega la consegna?",
+        "Quanto tempo impiega la spedizione?",
+        "Quando ricevo la mia consegna?",
+        "Quanto tempo ci vuole per la consegna?",
+        "Quanto tempo ci vuole per la spedizione?",
+        "Quando posso aspettarmi la consegna?",
+        "Quali sono i tempi di spedizione",
+        "Quanto ci vuole per la consegna?"
+      ],
+      "responses": [
+        "La consegna richiede 10-14 giorni",
+        "La spedizione richiede 10-14 giorni",
+        "La consegna con Corriere Espresso richiede 10-14 giorni",
+        "La consegna con SDA richiede 10-14 giorni",
+        "La consegna con Bartolini richiede 10-14 giorni"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Raccontami una barzelletta!",
+        "Dimmi qualcosa di divertente!",
+        "Conosci una barzelletta?",
+        "Vuoi sentire una barzelletta?",
+        "Hai una barzelletta da raccontare?"
+      ],
+      "responses": [
+        "Aveva la puzza sotto il naso... non si lavava mai i denti.",
+        "Dottore, cosa mi consiglia per i denti gialli?\nUna cravatta marrone.",
+        "Chi è il dentista di Mary Poppins? Lo spazzacanin."
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "Mi puoi fornire i contatti per favore?",
+        "Potrei avere il vostro numero di telefono e indirizzo email?",
+        "Posso prendermi i contatti?",
+        "Potrebbe darmi le sue coordinate?",
+        "Posso avere il numero di cellulare e indirizzo email per futuri riferimenti?",
+        "Puoi darmi il numero di telefono e indirizzo email?",
+        "Vorrei avere i vostri contatti",
+        "Qual'è il link del sito web?",
+        "Qual'è il numero di telefono?",
+        "Avete un numero verde?",
+        "Quali sono i vostri contatti?"
+      ],
+      "responses": [
+        "Per qualsiasi informazione, i nostri contatti sono: \nEmail: info@allineatorisorridi.com \nNumero verde: 800 03 16 30",
+        "Per qualsiasi domanda o richiesta è possibile utilizzare l'email info@allineatorisorridi.com o chiamare il numero verde 800 03 16 30.",
+      ]
+    }
+  ]
+}
