@@ -5,15 +5,19 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
+
 # se possibile utilizza la gpu
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+
 # legge il file di allenamento
-with open('data.json', 'r') as json_data:
+with open('Files/intents.json', 'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "data2.pth"
+
+FILE = "Files/model_data.pth"
 data = torch.load(FILE)
+
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
@@ -22,9 +26,11 @@ all_words = data['all_words']
 tags = data['tags']
 model_state = data["model_state"]
 
+
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
+
 
 # per far sembrare che il bot scriva nella print
 def simulate_typing(message):
@@ -37,6 +43,7 @@ def simulate_typing(message):
 bot_name = "Sorridi"
 simulate_typing("Chiedimi ciò che ti serve sapere! Per piacere cerca di essere specifico nelle domande.")
 simulate_typing("Per chiudere la chat digita 'esci'.")
+
 
 while True:
     sentence = input("Io: ")

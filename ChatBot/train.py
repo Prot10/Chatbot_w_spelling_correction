@@ -1,16 +1,24 @@
 import numpy as np
-import random
 import json
-
 import torch
 import torch.nn as nn
+import os
 from torch.utils.data import Dataset, DataLoader
-
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
-with open('intents.json', 'r') as f:
+
+# get the current path
+current_dir = os.getcwd()
+# get the path of the father folder
+parent_dir = os.path.dirname(current_dir)
+# set the wd to the father's folder
+os.chdir(parent_dir)
+
+
+with open(f'{current_dir}/Files/intents.json', 'r') as f:
     intents = json.load(f)
+
 
 all_words = []
 tags = []
@@ -28,6 +36,7 @@ for intent in intents['intents']:
         # add to xy pair
         xy.append((w, tag))
 
+
 # stem and lower each word
 ignore_words = ['?', '.', '!', ',', ';', ':', "'", '"', 'é', 'è']
 all_words = [stem(w) for w in all_words if w not in ignore_words]
@@ -35,9 +44,11 @@ all_words = [stem(w) for w in all_words if w not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
+
 print(len(xy), "patterns")
 print(len(tags), "tags:", tags)
 print(len(all_words), "unique stemmed words:", all_words)
+
 
 # create training data
 X_train = []
@@ -50,8 +61,10 @@ for (pattern_sentence, tag) in xy:
     label = tags.index(tag)
     y_train.append(label)
 
+
 X_train = np.array(X_train)
 y_train = np.array(y_train)
+
 
 # Hyper-parameters
 num_epochs = 1000
@@ -78,19 +91,24 @@ class ChatDataset(Dataset):
     def __len__(self):
         return self.n_samples
 
+
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset,
                           batch_size=batch_size,
                           shuffle=True,
                           num_workers=0)
 
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
+
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
 
 # Train the model
 for epoch in range(num_epochs):
@@ -110,7 +128,9 @@ for epoch in range(num_epochs):
     if (epoch + 1) % 100 == 0:
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.6f}')
 
+
 print(f'final loss: {loss.item():.6f}')
+
 
 model_data = {
     "model_state": model.state_dict(),
@@ -121,7 +141,9 @@ model_data = {
     "tags": tags
 }
 
-FILE = "model_data.pth"
+
+FILE = f"{current_dir}/Files/model_data.pth"
 torch.save(model_data, FILE)
 
-print(f'Training complete. File saved to {FILE}')
+
+print(f'Training complete.\nFile saved to: {FILE}')
