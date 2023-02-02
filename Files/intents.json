@@ -175,6 +175,44 @@
         "Per qualsiasi informazione, i nostri contatti sono: \nEmail: info@allineatorisorridi.com \nNumero verde: 800 03 16 30",
         "Per qualsiasi domanda o richiesta è possibile utilizzare l'email info@allineatorisorridi.com o chiamare il numero verde 800 03 16 30."
       ]
+    },
+    {
+      "tag": "pro",
+      "patterns": [
+        "Quali sono i motivi per optare per Sorridi allineatori dentali?",
+        "Perché Sorridi è la scelta migliore per la tua igiene orale?",
+        "Cosa rende Sorridi la scelta ideale per allineare i tuoi denti?",
+        "Perché dovresti scegliere Sorridi per il tuo trattamento ortodontico?",
+        "Quali sono i vantaggi di utilizzare gli allineatori dentali Sorridi?",
+        "Perché Sorridi è il brand di riferimento per la correzione dei denti?",
+        "Qual è la differenza tra Sorridi e altri allineatori dentali sul mercato?",
+        "Perché la gente sceglie Sorridi per migliorare la propria igiene orale?",
+        "Cosa rende Sorridi una scelta superiore per la correzione dei denti rispetto ad altri marchi?",
+        "Perché dovresti scegliere Sorridi per la tua cura dentale e ortodontica?"
+      ],
+      "responses": [
+        "Ecco alcuni vantaggi nello scegliere gli allineatori Sorridi:\n- Preventivi reali in base agli allineatori che servono, a partire da 5 movimenti\n- Senza attachments e con biomeccanica divot integrata\n- Prevalutazione fotografica senza impronte\n- No costi di setup\n Questi sono solo alcuni dei vantaggi che offriamo, per saperne di più visita la sezione: 'Alcuni Punti Di Forza Degli Allineatori Sorridi'",
+        "Perché scegliere gli allineatori Sorridi? Semplice!:\n- Preventivi reali in base agli allineatori che servono, a partire da 5 movimenti\n- Senza attachments e con biomeccanica divot integrata\n- Prevalutazione fotografica senza impronte\n- No costi di setup\n Questi sono solo alcuni dei vantaggi che offriamo, per saperne di più visita la sezione: 'Alcuni Punti Di Forza Degli Allineatori Sorridi'"
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "Quali sono i servizi di assistenza in lavorazione e post produzione che offrite?",
+        "Come funziona il processo di assistenza in lavorazione e post produzione?",
+        "Quali sono i vostri tempi di risposta per l'assistenza in lavorazione e post produzione?",
+        "Offrite supporto telefonico per l'assistenza in lavorazione e post produzione?",
+        "Quali sono le tariffe per l'assistenza in lavorazione e post produzione?",
+        "Come posso richiedere assistenza in lavorazione e post produzione?",
+        "Quali sono le vostre politiche sulla privacy durante l'assistenza in lavorazione e post produzione?",
+        "Avete un team dedicato all'assistenza in lavorazione e post produzione?",
+        "Quali sono le vostre procedure di risoluzione dei problemi per l'assistenza in lavorazione e post produzione?",
+        "Offrite formazione o corsi sull'assistenza in lavorazione e post produzione?"
+      ],
+      "responses": [
+        "Sorridi offre: setup con video, preventivo, ritiro e consegna sempre gratuiti. Mascherine gratuite in caso di smarrimento o frattura. Siamo inoltre a disposizione per qualsiasi confronto durante l'avanzamento del caso.",
+        "A disposizione dei professionisti: setup con video, preventivo, ritiro e consegna sempre gratuiti. Mascherine gratuite in caso di smarrimento o frattura. Completa disponibilità per qualsiasi confronto durante l'avanzamento del caso."
+      ]
     }
   ]
 }

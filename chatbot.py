@@ -3,7 +3,7 @@ import json
 import time
 import torch
 from ChatBotModel.model import NeuralNet
-from ChatBotModel.nltk_utils import bag_of_words, tokenize
+from ChatBotModel.nltk_utils import bag_of_words, tokenize2
 
 
 # se possibile utilizza la gpu
@@ -50,8 +50,7 @@ while True:
     if sentence == "esci":
         break
 
-    sentence = tokenize(sentence)
-    print(f'hai scritto: {sentence}')
+    sentence = tokenize2(sentence)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device)

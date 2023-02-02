@@ -8,18 +8,22 @@ from spellchecker import SpellChecker
 stemmer = nltk.stem.snowball.ItalianStemmer()
 
 
-path = 'Files/final_data.json'
-spell = SpellChecker(language=None)
-spell.word_frequency.load_dictionary(path)
-
-
-def tokenize(sentence):
+def tokenize1(sentence):
     """
     split sentence into array of words/tokens
     a token can be a word or punctuation character, or number
     """
-    print(path)
-    print(spell)
+    return nltk.word_tokenize(sentence)
+
+
+def tokenize2(sentence):
+    """
+    split sentence into array of words/tokens
+    a token can be a word or punctuation character, or number
+    """
+    path = 'Files/final_data.json'
+    spell = SpellChecker(language=None)
+    spell.word_frequency.load_dictionary(path)
     tokens = nltk.word_tokenize(sentence)
     return [spell.correction(token) for token in tokens]
 

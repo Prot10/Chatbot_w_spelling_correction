@@ -4,3 +4,7 @@
 *.iml
 SpellingCorrector/.DS_Store
 .DS_Store
+*.pyc
+*.pyc
+*.pyc
+ChatBotModel/__pycache__/nltk_utils.cpython-39.pyc
