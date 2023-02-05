@@ -8,8 +8,11 @@ class NeuralNet(nn.Module):
         self.l1 = nn.Linear(input_size, hidden_size)
         self.l2 = nn.Linear(hidden_size, hidden_size)
         self.l3 = nn.Linear(hidden_size, hidden_size)
-        self.l4 = nn.Linear(hidden_size, hidden_size)
-        self.l5 = nn.Linear(hidden_size, num_classes)
+        self.l4 = nn.Linear(hidden_size, hidden_size-10)
+        self.l5 = nn.Linear(hidden_size-10, hidden_size-10)
+        self.l6 = nn.Linear(hidden_size-10, hidden_size-15)
+        self.l7 = nn.Linear(hidden_size-15, hidden_size-15)
+        self.l8 = nn.Linear(hidden_size-15, num_classes)
         self.relu = nn.ReLU()
 
     def forward(self, x):
@@ -17,10 +20,16 @@ class NeuralNet(nn.Module):
         out = self.relu(out)
         out = self.l2(out)
         out = self.relu(out)
-        out = self.l3(x)
+        out = self.l3(out)
         out = self.relu(out)
         out = self.l4(out)
         out = self.relu(out)
         out = self.l5(out)
+        out = self.relu(out)
+        out = self.l6(out)
+        out = self.relu(out)
+        out = self.l7(out)
+        out = self.relu(out)
+        out = self.l8(out)
         # no activation and no softmax at the end
         return out

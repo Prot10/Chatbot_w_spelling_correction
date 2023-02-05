@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Buongiorno",
+        "Buonasera",
+        "Ciao",
+        "Salve",
+        "Buon pomeriggio",
+        "Buon giorno",
+        "Buona sera",
+        "Buon weekend",
+        "Buona giornata",
+        "Ehilà",
+        "Hey",
+        "Ei",
+        "We",
+        "Bella",
+        "Weila"
+      ],
+      "responses": [
+        "Ciao :-)",
+        "Ciao, grazie per averci visitato.",
+        "Salve, posso aiutarti in qualcosa?",
+        "Salve, come posso aiutarti?",
+        "Ciao, come posso aiutarti oggi?",
+        "Salve, cosa posso fare per te?",
+        "Ciao, in cosa posso esserti utile?",
+        "Salve, di cosa hai bisogno?",
+        "Ciao, in cosa posso esserti d'aiuto?",
+        "Buona giornata, come posso assistere?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Arrivederci",
+        "A presto",
+        "A dopo",
+        "Ci vediamo più tardi",
+        "Ci vediamo prossimamente",
+        "Ci sentiamo presto",
+        "Ci risentiamo"
+      ],
+      "responses": [
+        "A presto, grazie per averci visitato.",
+        "Buona giornata!",
+        "Arrivederci! Torna presto.",
+        "Ci risentiamo, grazie per la visita.",
+        "Buona continuazione!",
+        "A presto, torna a trovarci!",
+        "Buon proseguimento, torna presto."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Grazie",
+        "Ti ringrazio",
+        "E' stato utile",
+        "Molte grazie",
+        "Grazie mille",
+        "Grazie infinite",
+        "Grazie per il tuo aiuto",
+        "Grazie per avermelo fatto sapere",
+        "Apprezzo molto il tuo aiuto",
+        "Sono grato per il tuo aiuto",
+        "Gracias",
+        "Thanks",
+        "Thank you",
+        "Danke"
+      ],
+      "responses": [
+        "Felice di aiutare!",
+        "È un piacere",
+        "Nessun problema",
+        "E' stato un piacere",
+        "Sono sempre a disposizione",
+        "E' stato un piacere poterti essere utile",
+        "Sono grato di esserti stato d'aiuto"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Quali articoli avete?",
+        "Quali tipi di articoli ci sono?",
+        "Cosa vendete?",
+        "Avete una lista dei prodotti?",
+        "Avete un catalogo?",
+        "Avete una gamma di prodotti?",
+        "Avete qualcosa di specifico?",
+        "Avete una selezione di prodotti?"
+      ],
+      "responses": [
+        "Il nostro core business è la vendita di allineatori dentali invisibili di ultima generazione, pensati per rispondere alle esigenze dei nostri clienti.",
+        "Siamo un'azienda leader nel settore degli allineatori dentali invisibili, offriamo una vasta scelta di prodotti innovativi per soddisfare le esigenze dei nostri clienti.",
+        "Il nostro impegno è offrire allineatori dentali invisibili di alta qualità.",
+        "Siamo orgogliosi di essere un'azienda specializzata nella vendita di allineatori dentali invisibili innovativi.",
+        "Il nostro obiettivo è fornire ai nostri clienti allineatori dentali invisibili all'avanguardia."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Accettate carte di credito?",
+        "Accettate Mastercard?",
+        "Posso pagare con Paypal?",
+        "Accettate solo contanti?",
+        "Accettate carte di debito?",
+        "Accettate altre forme di pagamento?",
+        "Quali metodi di pagamento accettate?",
+        "Come posso pagare?"
+      ],
+      "responses": [
+        "Accettiamo VISA, Mastercard e Paypal",
+        "Accettiamo la maggior parte delle carte di credito e Paypal",
+        "Accettiamo tutte le principali carte di credito e Paypal",
+        "Accettiamo pagamenti con carte di credito e Paypal",
+        "Accettiamo tutte le principali carte di credito e Paypal come metodo di pagamento"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quanto tempo impiega la consegna?",
+        "Quanto tempo impiega la spedizione?",
+        "Quando ricevo la mia consegna?",
+        "Quanto tempo ci vuole per la consegna?",
+        "Quanto tempo ci vuole per la spedizione?",
+        "Quando posso aspettarmi la consegna?",
+        "Quali sono i tempi di spedizione",
+        "Quanto ci vuole per la consegna?"
+      ],
+      "responses": [
+        "La consegna richiede 10-14 giorni",
+        "La spedizione richiede 10-14 giorni",
+        "La consegna con Corriere Espresso richiede 10-14 giorni",
+        "La consegna con SDA richiede 10-14 giorni",
+        "La consegna con Bartolini richiede 10-14 giorni"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Raccontami una barzelletta!",
+        "Dimmi qualcosa di divertente!",
+        "Conosci una barzelletta?",
+        "Vuoi sentire una barzelletta?",
+        "Hai una barzelletta da raccontare?"
+      ],
+      "responses": [
+        "Aveva la puzza sotto il naso... non si lavava mai i denti.",
+        "Dottore, cosa mi consiglia per i denti gialli?\nUna cravatta marrone.",
+        "Chi è il dentista di Mary Poppins? Lo spazzacanin."
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "Mi puoi fornire i contatti per favore?",
+        "Potrei avere il vostro numero di telefono e indirizzo email?",
+        "Posso prendermi i contatti?",
+        "Potrebbe darmi le sue coordinate?",
+        "Posso avere il numero di cellulare e indirizzo email per futuri riferimenti?",
+        "Puoi darmi il numero di telefono e indirizzo email?",
+        "Vorrei avere i vostri contatti",
+        "Qual'è il link del sito web?",
+        "Qual'è il numero di telefono?",
+        "Avete un numero verde?",
+        "Quali sono i vostri contatti?",
+        "Come posso contattarvi?"
+      ],
+      "responses": [
+        "Per qualsiasi informazione, i nostri contatti sono: \nEmail: info@allineatorisorridi.com \nNumero verde: 800 03 16 30",
+        "Per qualsiasi domanda o richiesta è possibile utilizzare l'email info@allineatorisorridi.com o chiamare il numero verde 800 03 16 30."
+      ]
+    },
+    {
+      "tag": "pro",
+      "patterns": [
+        "Quali sono i motivi per optare per Sorridi allineatori dentali?",
+        "Perché Sorridi è la scelta migliore per la tua igiene orale?",
+        "Cosa rende Sorridi la scelta ideale per allineare i tuoi denti?",
+        "Perché dovresti scegliere Sorridi per il tuo trattamento ortodontico?",
+        "Quali sono i vantaggi di utilizzare gli allineatori dentali Sorridi?",
+        "Perché Sorridi è il brand di riferimento per la correzione dei denti?",
+        "Qual è la differenza tra Sorridi e altri allineatori dentali sul mercato?",
+        "Perché la gente sceglie Sorridi per migliorare la propria igiene orale?",
+        "Cosa rende Sorridi una scelta superiore per la correzione dei denti rispetto ad altri marchi?",
+        "Perché dovresti scegliere Sorridi per la tua cura dentale e ortodontica?"
+      ],
+      "responses": [
+        "Ecco alcuni vantaggi nello scegliere gli allineatori Sorridi:\n- Preventivi reali in base agli allineatori che servono, a partire da 5 movimenti\n- Senza attachments e con biomeccanica divot integrata\n- Prevalutazione fotografica senza impronte\n- No costi di setup\n Questi sono solo alcuni dei vantaggi che offriamo, per saperne di più visita la sezione: 'Alcuni Punti Di Forza Degli Allineatori Sorridi'",
+        "Perché scegliere gli allineatori Sorridi? Semplice!:\n- Preventivi reali in base agli allineatori che servono, a partire da 5 movimenti\n- Senza attachments e con biomeccanica divot integrata\n- Prevalutazione fotografica senza impronte\n- No costi di setup\n Questi sono solo alcuni dei vantaggi che offriamo, per saperne di più visita la sezione: 'Alcuni Punti Di Forza Degli Allineatori Sorridi'"
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "Quali sono i servizi di assistenza in lavorazione e post produzione che offrite?",
+        "Come funziona il processo di assistenza in lavorazione e post produzione?",
+        "Quali sono i vostri tempi di risposta per l'assistenza in lavorazione e post produzione?",
+        "Offrite supporto telefonico per l'assistenza in lavorazione e post produzione?",
+        "Quali sono le tariffe per l'assistenza in lavorazione e post produzione?",
+        "Come posso richiedere assistenza in lavorazione e post produzione?",
+        "Quali sono le vostre politiche sulla privacy durante l'assistenza in lavorazione e post produzione?",
+        "Avete un team dedicato all'assistenza in lavorazione e post produzione?",
+        "Quali sono le vostre procedure di risoluzione dei problemi per l'assistenza in lavorazione e post produzione?",
+        "Offrite formazione o corsi sull'assistenza in lavorazione e post produzione?"
+      ],
+      "responses": [
+        "Sorridi offre: setup con video, preventivo, ritiro e consegna sempre gratuiti. Mascherine gratuite in caso di smarrimento o frattura. Siamo inoltre a disposizione per qualsiasi confronto durante l'avanzamento del caso.",
+        "A disposizione dei professionisti: setup con video, preventivo, ritiro e consegna sempre gratuiti. Mascherine gratuite in caso di smarrimento o frattura. Completa disponibilità per qualsiasi confronto durante l'avanzamento del caso."
+      ]
+    },
+    {
+      "tag": "dentist",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?",
+        "In quanto dentista perché dovrei scegliervi?",
+        "Da dentista ho dei vantaggi?",
+        "In quanto dentista mi riservate dei vantaggi?",
+        "Ci sono vantaggi riservati ai dentisti?",
+        "Perché un dentista dovrebbe scegliere i vostri allineatori?",
+        "Sono un dentista, che vantaggi ottengo?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti",
+        "Ai dentisti offriamo:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    }
+  ]
+}
