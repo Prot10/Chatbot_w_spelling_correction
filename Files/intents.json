@@ -169,7 +169,8 @@
         "Qual'è il link del sito web?",
         "Qual'è il numero di telefono?",
         "Avete un numero verde?",
-        "Quali sono i vostri contatti?"
+        "Quali sono i vostri contatti?",
+        "Come posso contattarvi?"
       ],
       "responses": [
         "Per qualsiasi informazione, i nostri contatti sono: \nEmail: info@allineatorisorridi.com \nNumero verde: 800 03 16 30",
@@ -212,6 +213,94 @@
       "responses": [
         "Sorridi offre: setup con video, preventivo, ritiro e consegna sempre gratuiti. Mascherine gratuite in caso di smarrimento o frattura. Siamo inoltre a disposizione per qualsiasi confronto durante l'avanzamento del caso.",
         "A disposizione dei professionisti: setup con video, preventivo, ritiro e consegna sempre gratuiti. Mascherine gratuite in caso di smarrimento o frattura. Completa disponibilità per qualsiasi confronto durante l'avanzamento del caso."
+      ]
+    },
+    {
+      "tag": "dentist",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?",
+        "In quanto dentista perché dovrei scegliervi?",
+        "Da dentista ho dei vantaggi?",
+        "In quanto dentista mi riservate dei vantaggi?",
+        "Ci sono vantaggi riservati ai dentisti?",
+        "Perché un dentista dovrebbe scegliere i vostri allineatori?",
+        "Sono un dentista, che vantaggi ottengo?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti",
+        "Ai dentisti offriamo:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Assistenza_Lavorazione_Post_Produzione",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Linea_Diretta_Whatsapp",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Formazione_Video",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Garanzia_Trattamento",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Kit_Marketing",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Ritiro_Consegna",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Videochiamata",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
+      ]
+    },
+    {
+      "tag": "Step-By-Step",
+      "patterns": [
+        "Quali sono i vantaggi per i dentisti?"
+      ],
+      "responses": [
+        "I vantaggi per i dentisti sono:\n- Assistenza in lavorazione e post produzione\n- Linea diretta Whatsapp\n- Formazione video gratuita e completa\n- Garanzia del trattamento\n- Kit marketing per sala d'aspetto\n- Ritiro e consegna sempre gratuiti"
       ]
     }
   ]

@@ -69,7 +69,7 @@ y_train = np.array(y_train)
 
 # Hyper-parameters
 num_epochs = 1000
-batch_size = 8
+batch_size = 32
 learning_rate = 0.001
 input_size = len(X_train[0])
 hidden_size = 8
@@ -118,16 +118,26 @@ for epoch in range(num_epochs):
         labels = labels.to(dtype=torch.long).to(device)
         # Forward pass
         outputs = model(words)
-        # if y would be one-hot, we must apply
-        # labels = torch.max(labels, 1)[1]
         loss = criterion(outputs, labels)
         # Backward and optimize
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
-    if (epoch + 1) % 100 == 0:
-        print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.6f}')
+    # # switch to evaluation mode
+    # model.eval()
+    # # deactivate the gradient calculation
+    # with torch.no_grad():
+    #     validation_loss = 0
+    #     for inputs, labels in validation_data:
+    #         outputs = model(inputs)
+    #         loss = criterion(outputs, labels)
+    #         validation_loss += loss.item()
+    # # switch back to training mode
+    # model.train()
+
+    # if (epoch + 1) % 100 == 0:
+    #     print(f'Epoch [{epoch + 1}/{num_epochs}]\n- Loss: {loss.item():.6f}\n- Validation Los: {loss.item():.6f}')
 
 
 print(f'final loss: {loss.item():.6f}')
