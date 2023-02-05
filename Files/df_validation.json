@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Buonanotte",
+        "Buona serata"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "A risentirci",
+        "Ci sentiremo di nuovo"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Molte grazie",
+        "Grazie davvero",
+        "Molto gentile"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Che cosa avete in vendita?",
+        "Che roba vendete?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Che metodo di pagamento posso usare?",
+        "Come vi posso dare i soldi?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "La spedizione quando arriva?",
+        "Quali sono i tempi per la consegna?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Raccontami una cosa divertente"
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "I vostri contatti quali sono?",
+        "Avete un numero whatsapp?",
+        "Vi posso contattare su whatsapp?"
+      ]
+    },
+    {
+      "tag": "pro",
+      "patterns": [
+        "Perché dovrei scegliere Sorridi?",
+        "Per quale ragione i vostri allineatori sono i migliori?"
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "In cosa consiste il vostro supporto per i clienti?",
+        "Date un supporto durante la lavorazione?"
+      ]
+    },
+    {
+      "tag": "dentist",
+      "patterns": [
+        "Che vantaggi ho in quanto dentista?",
+        "Quali sono i vantaggi per cui scegliervi?"
+      ]
+    }
+  ]
+}
